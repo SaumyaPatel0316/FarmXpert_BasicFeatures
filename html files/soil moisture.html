@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soil Moisture Monitoring</title>
+  <link rel="stylesheet" href="CSSfiles\soil moisture.css">
+</head>
+<body>
+  
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="C:\Users\Saumy\Downloads\Sample-2\logo.jpg.jpeg.jpg" alt="Smart Irrigation Logo" class="logo-image">
+      <span><b>FarmXpert</b></span> 
+    </div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html" style="text-decoration:none"><u>Home</u></a></li>
+        <li><a href="C:\Users\Saumy\Downloads\Sample-2\html files\system.html" style="text-decoration:none"><u>System</u></a></li>
+        <li><a href="C:\Users\Saumy\Downloads\Sample-2\html files\login.html" style="text-decoration:none"><u>Login</u></a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+  <div class="container">
+    <h1>Your System</h1>
+
+    <!-- Soil Moisture Section -->
+    <div class="soil-moisture-section">
+      <h2>Soil Moisture Level</h2>
+      <div class="soil-info">
+        <label for="moisture-slider">Soil Moisture: <span id="moisture-value">50</span>%</label>
+        <input type="range" id="moisture-slider" min="0" max="100" value="50" disabled>
+      </div>
+      <button id="get-moisture">Get Current Moisture</button>
+    </div>
+  </div>
+
+  <script src="soil moisture.js"></script>
+
+    <!-- Footer -->
+    <footer>
+      <p>Contact Support: support@farmxpert.com</p>
+      <p>&copy; 2024 Smart Irrigation System</p>
+    </footer>
+
+</body>
+</html>

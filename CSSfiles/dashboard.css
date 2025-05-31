@@ -1,0 +1,184 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+}
+body {
+  background-image: url('farm.jpg');
+  background-size: cover; /* Scales the background image to cover the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+header {
+  background-color: #4ecb53;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-size : xx-large;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-image {
+  width: 50px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+nav ul li {
+  display: inline;
+  text-decoration : none;
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sign-out{
+  color :#ff0000;
+}
+/*Main*/
+
+
+main {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title{
+  font-size : 30px;
+  font-weight : bolder;
+  text-align : center;
+}
+
+
+h1 {
+  margin-bottom: 0px;
+  color: #333;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.field-status, .weather-forecast, .task-list {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.status-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.status-card {
+  flex: 1;
+  min-width: 250px;
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.status-card h2 {
+  margin-bottom: 10px;
+}
+
+.status-content .chart {
+  height: 350px;
+  width : 350px;
+  margin-left : 150px;
+  background-color: #b2dfdb;
+  margin-bottom: 10px;
+}
+
+.content-image {
+    height : 300px;
+    width : 300px;
+    transition : height 1s , width 1s;
+}
+
+.content-image:hover{
+  height : 310px;
+  width : 310px;
+  cursor : pointer;
+}
+
+#imgRT{
+  margin-top : 20px;
+}
+
+#imgRB{
+  margin-top : 20px;
+}
+
+#imgLB{
+  margin-top : 20px;
+}
+
+
+.weather-forecast p {
+  font-size: 16px;
+  color: #555;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/*footer*/
+footer {
+  background-color: #4ecb53;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+  

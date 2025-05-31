@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart System Mode</title>
+  <link rel="stylesheet" href="CSSfiles\system.css">
+</head>
+<body>
+  
+     <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="C:\Users\Saumy\Downloads\Sample-2\logo.jpg.jpeg.jpg" alt="Smart Irrigation Logo" class="logo-image">
+      <span><b>FarmXpert</b></span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html"><u>Home</u></a></li>
+        <li><a href="C:\Users\Saumy\Downloads\Sample-2\html files\system.html"><u>System</u></a></li>
+        <li><a href="C:\Users\Saumy\Downloads\Sample-2\html files\login.html"><u>Login</u></a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <br>
+
+  <div class="container">
+    <h1>Your System Mode</h1>
+    
+    <!-- Mode Selection Section -->
+    <div class="mode-selection">
+      <h2>Select Mode</h2>
+      <label>
+        <input type="radio" name="mode" id="manual" value="manual" checked> Manual Mode
+      </label>
+      <label>
+        <input type="radio" name="mode" id="auto" value="auto"> Auto Mode
+      </label>
+    </div>
+
+    <!-- Mode Status -->
+    <div class="status-section">
+      <h3>Current Mode: <span id="current-mode">Manual</span></h3>
+    </div>
+  </div>
+
+  <script src="system.js"></script>
+
+    <!-- Footer -->
+    <footer>
+      <p>Contact Support: support@farmxpert.com</p>
+      <p>&copy; 2024 Smart Irrigation System</p>
+    </footer>
+</body>
+</html>
